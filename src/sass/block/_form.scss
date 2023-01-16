@@ -1,0 +1,21 @@
+.form{
+    &__input, &__textarea{
+        width: 402px;
+        padding: 17px 0 17px 22px;
+        text-transform: uppercase;
+        background: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin-bottom: 24px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: rgba(45, 45, 45, 0.5);
+    }
+    &__textarea{
+        height: 112px;
+    }
+}

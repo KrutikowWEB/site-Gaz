@@ -1,0 +1,40 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Russo+One&display=swap');
+@import 'libs/slick.scss';
+
+
+* {
+    font-family: 'Russo One', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import 'base/variables';
+
+@import 'block/fonts';
+@import 'block/button';
+@import 'block/promo';
+@import 'block/cost';
+@import 'block/advantages';
+@import 'block/background';
+@import 'block/volume';
+@import 'block/feedback';
+@import 'block/answer';
+@import 'block/accordion';
+@import 'block/call';
+@import 'block/location';
+@import 'block/form';
+@import 'block/modal';
+
+@import 'base/media';

@@ -1,0 +1,82 @@
+.btn, .btn5, .btn6{
+    background: url('../img/promo/btn.png') center center/ cover no-repeat;
+    border: none;
+    width: 395px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 11px;
+    font-size: 22px;
+    line-height: 27px;
+    color: $white-color;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    opacity: 0.9;
+    transition: all 0.3s;
+    &:hover{
+        opacity: 1;
+    }
+    &:active{
+        transform: scale(1.02);
+    }
+}
+.btn5{
+    background: url('../img/modal/btn_modal.png') center center/ cover no-repeat;
+    width: 361px;
+    margin: 0 auto;
+}
+.btn6{
+    background: url('../img/modal/btn_modal2.png') center center/ cover no-repeat;
+    width: 361px;
+    margin: 0 auto;
+}
+.btn2, .btn4{
+    width: 155px;
+    height: 43px;
+    background: $main-color;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: $white-color;
+    opacity: 0.9;
+    transition: all 0.3s;
+    &:hover{
+        opacity: 1;
+    }
+    &:active{
+        transform: scale(1.02);
+    }
+}
+.btn4{
+    width: 220px;
+    height: 47px;
+}
+
+.btn3{
+    width: 295px;
+    height: 87px;
+    border-radius: 11px;
+    border: none;
+    background: url('../img/block4/btn4.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: $white-color;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    opacity: 0.9;
+    transition: all 0.3s;
+    &:hover{
+        opacity: 1;
+    }
+}

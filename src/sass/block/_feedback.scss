@@ -1,0 +1,86 @@
+.feedback{
+    width: 100%;
+    background: #222222;
+    min-height: 532px;
+    padding-top: 40px;
+    &__title{
+        text-align: center;
+        color: $white-color;
+    }
+    &__item{
+        width: 759px;
+        min-height: 320px;
+        padding: 40px 50px 40px 40px;
+        background: #F1F1F1;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        display: flex;
+        gap: 23px;
+        border: none;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        &-name{
+            margin-top: 5px;
+            color: $main-color;
+        }
+        &-location{
+            margin-top: 4px;
+        }
+        &-text{
+            color: #2D2D2D;
+            margin-top: 15px;
+        }
+    }
+    &__slick{
+        position: relative;
+        padding-left: 150px;
+        width: 1010px;
+        margin-top: 47px;
+    }
+    .slick-slide{
+        display: flex;
+        margin-left: 100px;
+        width: 759px;
+        border: none;
+    }
+    .slick-next, .slick-prev{
+        position: absolute;
+        width: 0;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #222222;
+        border: none;
+        transition: all 0.3s;
+        &:hover{
+            transform: scale(1.2) translateY(-35px);
+        }
+    }
+    .slick-prev{
+        left: 110px;
+    }
+    .slick-dots{
+        margin: 0 auto;
+        margin-top: 24px;
+        width: 337px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    .slick-dots button {
+        width: 61px;
+        height: 18px;
+        background: rgba(241, 241, 241, 0.2);
+        border-radius: 20px;
+        border: none;
+        outline: none; 
+        font-size: 0;
+        transition: all 0.9s;
+    }
+    
+    .slick-dots li[class="slick-active"] button {
+        background: $main-color;
+    }
+}

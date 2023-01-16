@@ -1,0 +1,82 @@
+.promo{
+    width: 100%;
+    background-color: #222222;
+    min-height: 647px;
+    padding-top: 20px;
+    overflow: hidden;
+    &__call{
+        position: absolute;
+        top: 24px;
+        right: 32px;
+        display: flex;
+        flex-direction: column;
+        &-question{
+            font-weight: 700;
+            color: $main-color;
+            transition: all 0.3s;
+        }
+    }
+    &__img{
+        position: absolute;
+        top: 112px;
+        left: 40%;
+    }
+    &__info{
+        width: 535px;
+    }
+    &__footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-line{
+            width: 33px;
+            height: 0px;
+            border: 1px solid #FFFFFF;
+            transform: rotate(90deg);
+            margin-top: 25px;
+        }
+        &-deskr{
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: $main-color;
+            margin-top: 25px;
+        }
+    }
+    &__weather{
+        margin-top: 34px;
+        display: flex;
+        gap: 34px;
+        &-time{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+        }
+        &-icons{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+    &__title{
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 63px;
+        color: #2194FF;
+    }
+    &__subtitle{
+        margin-top: 21px;
+        width: 305px;
+    }
+    &__btn{
+        margin-top: 40px;
+    }
+    &__deskr{
+        margin-top: 13px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,584 @@
+@media (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .cost{
+        &__info{
+            grid-template-columns: 260px 422px 260px;
+        }
+    }
+    .advantages{
+        &__list{
+            margin-top: 35px;
+            grid-template: repeat(2,minmax(185px,226px)) 250px/repeat(3,320px);
+            column-gap: 0px;
+        }
+        &__guarantee{
+            width: 427px;
+            bottom: 10px;
+        }
+    }
+    .volume{
+        &__slick{
+            margin: 136px 80px 0 200px;
+        }
+    }
+    .feedback{
+        &__slick{
+            width: 100%;
+            padding-left: 10px;
+        }
+        .slick-next, .slick-prev{
+            right: 90px;
+        }
+        .slick-prev{
+            z-index: 10;
+            left: 50px;
+        }
+    }
+    .call{
+        &__firm{
+            padding: 0;
+            justify-content: space-between;
+            &-item{
+                width: 135px;
+            }
+        }
+    }
+}
+
+@media (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+    .promo{
+        &__call{
+            position: absolute;
+            top: 42px;
+            right: -8px;
+        }
+        &__img{
+            top: 230px;
+            left: 45%;
+            img{
+                width: 628px;
+            }
+        }
+        &__btn{
+            margin-top: 70px;
+        }
+    }
+    .cost{
+        &__info{
+            margin-top: 40px;
+            grid-template-columns: repeat(2,320px);
+            grid-template-rows: 243px 425px;
+            gap: 30px;
+        }
+        &__item{
+            align-items: center;
+            &_center{
+                grid-column: 1/3;
+                grid-row: 2;
+            }
+            &-subtitle{
+                margin-top: 10px;
+            }
+            &-btn{
+                margin-top: 30px;
+            }
+        }
+        &__arrow{
+            bottom: -2%;
+        }
+    }
+    .advantages{
+        min-height: 1960px;
+        padding-bottom: 35px;
+        &__list{
+            grid-template: repeat(5,minmax(185px,226px)) /repeat(2,347px);
+            column-gap: 25px;
+        }
+        &__item{
+            &:nth-child(5){
+                justify-content: center;
+            }
+            &:nth-child(9){
+                grid-row: 2;
+                grid-column: 2;
+            }
+            &:nth-child(4){
+                grid-row: 5;
+            }
+            &:nth-child(7){
+                justify-content: flex-end;
+            }
+        }
+        &__guarantee{
+            width: 100%;
+            bottom: -167px;
+            text-align: center;
+        }
+        &__img{
+            width: 100%;
+        }
+    }
+    .volume{
+        &__slick{
+            margin: 136px 44px 0 90px;
+        }
+        .slick-dots{
+            justify-content: center;
+            gap: 21px;
+        }
+    }
+    .feedback{
+        &__item{
+            min-height: 320px;
+        }
+        .slick-slide{
+            width: 600px;
+        }
+        .slick-next, .slick-prev{
+            right: 50px;
+        }
+        .slick-prev{
+            z-index: 10;
+            left: 10px;
+        }
+    }
+    .form{
+        &__input, &__textarea{
+            width: 370px;
+        }
+    }
+    .call{
+        &__wrapper{
+            gap: 0;
+        }
+        &__img{
+            width: 450px;
+            img{
+                width: 100%;
+            }
+        }
+        &__man{
+            right: 7%;
+        }
+        &__firm{
+            margin-top: 45px;
+            display: grid;
+            grid-template: repeat(auto-fill, minmax(40px, 70px))/ repeat(auto-fill, minmax(70px, 135px));
+            gap: 10px;
+        }
+    }
+    .location{
+        &__info{
+            padding: 23px;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+    .size{
+        &__fz24{
+            font-size: 21px;
+            line-height: 25px;
+        }
+    }
+    .promo{
+        padding-bottom: 50px;
+        &__footer{
+            justify-content: space-between;
+            &-deskr{
+                width: 200px;
+            }
+        }
+        &__weather{
+            gap: 0;
+            justify-content: space-around;
+            &-time{
+                align-items: center;
+            }
+        }
+        &__title{
+            margin-top: 20px;
+            font-size: 44px;
+            line-height: 50px;
+            text-align: center;
+        }
+        &__subtitle{
+            width: 100%;
+        }
+        &__deskr{
+            text-align: center;
+            margin-top: 25px;
+        }
+        &__call{
+            display: none;
+        }
+        &__btn{
+            margin: 0 auto;
+            margin-top: 325px;
+        }
+        &__img{
+            top: 326px;
+            left: 0;
+        }
+    }
+    .cost{
+        &__info{
+            grid-template-columns: repeat(2,260px);
+            grid-template-rows: 265px 425px;
+            gap: 20px;
+        }
+    }
+    .advantages{
+        &__list{
+            grid-template: repeat(5,minmax(185px,241px))/repeat(2,255px);
+            column-gap: 10px;
+        }
+        &__item{
+            justify-content: center;
+            &:nth-child(3){
+                justify-content: flex-start;
+            }
+            &:nth-child(6){
+                justify-content: center;
+            }
+            &:nth-child(7){
+                justify-content: center;
+            }
+            &:nth-child(8){
+                justify-content: flex-start;
+            }
+            &-title{
+                width: 100%;   
+            }
+        }
+    }
+    .volume{
+        min-height: 741px;
+        &__slick{
+            margin: 200px 0 0 0;
+            img{
+                margin-top: 30px;
+            }
+        }
+        .slick-dots{
+            width: 100%;
+            top: -170px;
+            left: auto;
+            display: grid;
+            justify-content: center;
+            grid-template: repeat(2, 64px) / repeat(2, 165px);
+            column-gap: 50px;
+        }
+    }
+    .feedback{
+        padding-bottom: 20px;
+        &__item{
+            padding: 40px 20px 40px 40px;
+            img{
+                width: 245px;
+                object-fit: cover;
+            }
+        }
+        .slick-slide{
+            width: 500px;
+        }
+        &__info{
+            &-text{
+                margin-top: 3px;
+                font-size: 15px;
+                line-height: 20px;
+            }
+        }
+    }
+    .call{
+        &__info{
+            width: 100%;
+        }
+        &__wrapper{
+            display: block;
+        }
+        &__title{
+            text-align: center;
+        }
+        &__img{
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 420px;
+        }
+        &__man{
+            right: 55%;
+        }
+        &__firm{
+            margin-top: 35px;
+        }
+    }
+    .form{
+        text-align: center;
+        &__btn{
+            button{
+                margin: 0 auto;
+            }
+        }
+    }
+    .location{
+        min-height: 1220px;
+        padding-bottom: 30px;
+        &__title{
+            width: 100%;
+        }
+        &__info{
+            top: calc(100% + 25px);
+            width: 100%;
+            border-radius: 33px;
+            height: 370px;
+            &-text{
+                margin-bottom: 25px;
+            }
+            &-subtitle{
+                margin-top: 15px;
+            }
+        }
+        &__policy{
+            margin-top: 410px;
+            &-item{
+                width: 200px;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    .size{
+        &__title{
+            font-size: 28px;
+            line-height: 37px;
+        }
+        &__deskr16{
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }
+    .promo{
+        &__info{
+            width: 100%;
+        }
+        &__footer{
+            margin: 0 auto;
+            flex-direction: column;
+            align-items: center;
+            &-line{
+                display: none;
+            }
+            &-logo{
+                margin: 0 auto;
+            }
+            &-deskr{
+                width: 245px;
+            }
+        }
+        &__weather{
+            margin-top: 20px;
+            justify-content: space-between;
+            &-deskr{
+                text-align: center;
+            }
+        }
+        &__img{
+            top: 435px;
+        }
+        &__title{
+            font-size: 40px;
+            line-height: 42px;
+        }
+        &__subtitle{
+            font-size: 23px;
+            text-align: center;
+        }
+        &__btn{
+            width: 250px;
+        }
+    }
+    .cost{
+        min-height: 1000px;
+        padding: 30px 0;
+        &__info{
+            grid-template-columns: none;
+            grid-template-rows: 234px 258px 258px;
+            gap: 40px;
+        }
+        &__item{
+            align-items: center;
+            &_center{
+                grid-column: 1;
+                grid-row: 1;
+            }
+        }
+        &__arrow{
+            bottom: -3%;
+        }
+    }
+    .advantages{
+        min-height: 2587px;
+        padding-bottom: 0;
+        &__list{
+            grid-template: repeat(10 ,minmax(185px,auto))/ 300px;
+            column-gap: 10px;
+        }
+        &__item{
+            justify-content: center;
+            &:nth-child(9){
+                grid-column: 1;
+            }
+            &:nth-child(4){
+                .advantages__item-title{
+                    width: 100%;
+                }
+            }
+        }
+        &__guarantee{
+            bottom: 140px;
+            &-title{
+                font-size: 25px;
+                line-height: 35px;
+            }
+            &-deskr{
+                margin: 0 auto;
+                width: calc(100% - 20px);
+                font-size: 12px;
+            }
+        }
+        &__img{
+            margin-top: 70px;
+        }
+    }
+    .volume{
+        min-height: 617px;
+        img{
+            width: 300px;
+            margin-top: 0;
+        }
+        .slick-dots{
+            grid-template: repeat(2, 64px) / repeat(2, 140px);
+            column-gap: 20px;
+        }
+        .slick-dots button {
+            width: 140px;
+            height: 64px;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__btn{
+            position: static;
+            transform: translateX(0%);
+        }
+    }
+    .feedback{
+        &__item{
+            min-height: 120px;
+            padding: 20px;
+            flex-direction: column;
+            gap: 0;
+            img{
+                margin: 0 auto;
+                width: 240px;
+                object-fit: cover;
+            }
+        }
+        &__slick{
+            padding-left: 2px;
+        }
+        .slick-slide{
+            width: 300px;
+        }
+        &__info{
+            &-text{
+                margin-top: 3px;
+                font-size: 13px;
+                line-height: 19px;
+                text-align: center;
+            }
+            &-name, &-location{
+                text-align: center;
+            }
+        }
+        .slick-dots{
+            width: 300px;
+            gap: 25px;
+            justify-content: center;
+        }
+        .slick-dots button {
+            width: 40px;
+        }
+    }
+    .accordion{
+        padding-left: 50px;
+        &::after{
+            left: 12px;
+        }
+    }
+    .active:after{
+        left: 12px;
+    }
+    .panel{
+        padding: 0 18px;
+        padding-left: 12px;
+    }
+    .form{
+        &__input, &__textarea{
+            width: 300px;
+        }
+    }
+    .call{
+        &__img{
+            width: 300px;
+        }
+        &__man{
+            width: 180px;
+            height: 60px;
+            padding-top: 5px;
+            padding-left: 10px;
+            right: 40%;
+            bottom: -20px;
+        }
+    }
+    .location{
+        &__info{
+            height: 385px;
+            &-deskr{
+                font-size: 14px;
+                line-height: 21px;
+            }
+            &-line{
+                margin-top: 10px;
+            }
+            &-text{
+                margin-bottom: 15px;
+            }
+            &-subtitle{
+                margin-top: 10px;
+            }
+        }
+        &__policy{
+            margin-top: 425px;
+            &-item{
+                width: 150px;
+            }
+        }
+    }
+}

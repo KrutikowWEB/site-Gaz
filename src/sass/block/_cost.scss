@@ -1,0 +1,80 @@
+.cost{
+    width: 100%;
+    min-height: 535px;
+    background: #222222;
+    position: relative;
+    padding-top: 46px;
+    &__title{
+        text-align: center;
+    }
+    &__info{
+        display: grid;
+        grid-template-columns: 260px 542px 260px;
+        gap: 8px;
+        margin-top: 49px;
+        justify-content: center;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        &-title{
+            color: $white-color;
+        }
+        &-subtitle{
+            color: $main-color;
+        }
+        &-text{
+            margin-top: 21px;
+        }
+        &-btn{
+            margin-top: 40px;
+        }
+        &_center{
+            align-items: center;
+        }
+    }
+    &__perfect{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: $white-color;
+        opacity: 0.7
+    }
+    &__mix{
+        margin-top: 17px;
+        display: flex;
+        align-items: center;
+        &-line{
+            width: 51px;
+            height: 0px;
+            border: 1px solid rgba(241, 241, 241, 0.3);
+            transform: rotate(90deg);
+        }
+        &-ingredient{
+            display: flex;
+            flex-direction: column;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 20px;
+            color: rgba(241, 241, 241, 0.7);
+        }
+        &-ingredient2{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    &__img{
+        width: 100%;
+        margin-top: 15px;
+        img{
+            width: 100%;
+        }
+    }
+    &__arrow{
+        position: absolute;
+        bottom: -8%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
