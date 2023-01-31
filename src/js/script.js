@@ -97,8 +97,6 @@ function validateForms(form){
 
 validateForms('#order form');
 validateForms('#question form');
-/* validateForms('#consultation form'); //Если форм больше, то меняем ID и все
-validateForms('#order form'); */
 
 
 /* Для отправки данных без перезагрузки страницы технология AJAcs */
@@ -111,19 +109,14 @@ $('form').submit(function(e) {
       data: $(this).serialize()
   }).done(function() {
       $(this).find("input").val("");
-      $('#question, #order').fadeOut();  // прописывается id блоков , которые закрываются
-      $('#backup').fadeIn('slow');   // проиписывается id блоков , кот. открываются
+      $('#question, #order').fadeOut();  
+      $('#backup').fadeIn('slow'); 
 
       $('form').trigger('reset');
   });
   return false;
 });
 
-
-
-// мой скрипт для возврата на блок с определенным id и определенным классом
-// здесь data-modal=back - дата-атрибут кнопки(присвоили в HTML), при нажатии которой будет возврат на страницу
-// .overlay, #backup - класс блока и id блока с которого мы уходим
 
 $('[data-modal=back]').on('click', function() {
   $('.overlay, #backup').fadeOut(400);
