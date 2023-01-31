@@ -19,5 +19,6 @@
 - opening modal windows
 - element "accordion"
 - sliders
+- submitting form data using PHP
 
 #### Used grid and flexbox layout
